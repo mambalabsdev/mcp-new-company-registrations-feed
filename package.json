@@ -1,0 +1,52 @@
+{
+  "name": "@mambalabsdev/mcp-new-company-registrations-feed",
+  "version": "1.0.0",
+  "description": "MCP server for New Company Registrations Feed. Find companies newly registered in UK Companies House, Norway Brreg, Finland PRH, and France BODACC, filtered by date, industry code, activity, name, and place: one row per company with number, type, address, and industry. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-new-company-registrations-feed": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "company-registrations",
+    "new-companies",
+    "companies-house",
+    "business-registry",
+    "brreg",
+    "bodacc",
+    "lead-generation",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/new-company-registrations-feed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-new-company-registrations-feed"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-new-company-registrations-feed",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  }
+}

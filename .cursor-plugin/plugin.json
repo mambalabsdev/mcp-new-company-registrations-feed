@@ -1,0 +1,30 @@
+{
+  "name": "mcp-new-company-registrations-feed",
+  "displayName": "New Company Registrations Feed",
+  "version": "1.0.0",
+  "description": "MCP server for New Company Registrations Feed. Find companies newly registered in UK Companies House, Norway Brreg, Finland PRH, and France BODACC, filtered by date, industry code, activity, name, and place: one row per company with number, type, address, and industry. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-new-company-registrations-feed",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "company-registrations",
+    "new-companies",
+    "companies-house",
+    "apify",
+    "clay"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "company-registrations",
+    "new-companies",
+    "apify",
+    "clay"
+  ],
+  "mcpServers": ".mcp.json"
+}

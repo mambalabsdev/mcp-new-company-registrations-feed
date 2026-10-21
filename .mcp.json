@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-new-company-registrations-feed": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-new-company-registrations-feed"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
