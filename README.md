@@ -4,7 +4,7 @@
 
 <a href="https://mcprush.com/to/new-company-registrations-feed-mcp?ref=badge"><img width="380" height="200" src="https://mcprush.com/badge/new-company-registrations-feed-mcp/card.svg" alt="New Company Registrations Feed MCP server" /></a>
 
-An MCP server for the Mamba Labs New Company Registrations Feed actor on Apify. Give it a registration window, industry codes, activity words, or places. Each run reads four official business registers and returns one row per newly registered company.
+An MCP server for the Mamba Labs [Newly Registered Companies, UK, Norway, Finland, France](https://apify.com/mambalabs/new-company-registrations-feed) actor on Apify. Give it a registration window, industry codes, activity words, or places. Each run reads four official business registers and returns one row per newly registered company.
 
 ## What's Inside
 
